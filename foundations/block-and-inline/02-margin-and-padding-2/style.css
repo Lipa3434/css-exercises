@@ -1,3 +1,8 @@
+* {
+  font-size: 16px;
+  padding: 10px;
+}
+
 body {
   background: gray;
   font-family: sans-serif;
@@ -15,6 +20,20 @@ body {
   background: dodgerblue;
 }
 
+.content {
+  padding: 20px 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
 button {
   background: white;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
 }
